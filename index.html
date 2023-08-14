@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+		<title>Новость</title>
+		<meta content="" name="description" />
+		<meta content="" name="keywords" />
+		<link rel="icon" type="image/png" href="img_general/favicon.png">
+		<link rel="icon" type="image/ico" href="img_general/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	</head>
+	<body>
+		<div class="maincontainer">
+            <div class="container">
+                <header>
+                    <div class="header">
+                        <div class="header__left">
+                            <a href="/" class="logo logo_header">
+                                <img src="img_general/logo.png" alt="Логотип" title="Логотип" />
+                            </a>
+                            <div class="language">
+                                <a href="#" class="language__block language__block_active">ru</a>
+                                <a href="#" class="language__block">en</a>
+                            </div>
+                        </div>
+                        <div class="header__right">
+                            <div class="personal-area personal-area_active">
+                                <div class="personal-area__top">
+                                    <a href="#" class="personal-area__icon">
+                                        <img src="img_general/personal_area.png">
+                                    </a>
+                                    <div class="personal-area__name">
+                                        <a href="#" class="personal-area__title">Tourist</a>
+                                        <div class="personal-area__exit">Выход</div>
+                                    </div>
+                                </div>
+                                <div class="personal-area__check personal-area__check_confirm"><span>✔</span> Подтверждённый профиль</div>
+                                <div class="personal-area__check"><span>✘</span> Неподтверждённый профиль</div>
+                            </div>
+                            <div class="personal-area">
+                                <div class="personal-area__inner">
+                                    <div class="personal-area__button personal-area_enter">Вход</div>
+                                    <div class="personal-area__button personal-area_register">Регистрация</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <nav>
+                            <div class="menu__close">&#10006;</div>
+                            <div class="menu__close-all"></div>
+                            <ul>
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Соревнования</a>
+                                <li><a href="#">Тренировка</a>
+                                <li><a href="#">Edu</a>
+                                <li><a href="#">Рейтинг</a>
+                                <li><a href="#">Архив задач</a>
+                                <li><a href="#">Наши партнеры</a>
+                                <li><a href="#">Контакты</a>
+                                <li><a href="#">О спортивном программировании</a>           
+                            </ul>
+                        </nav>
+                        <div class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </header>
+                <div class="main-content main-content_news-one">
+                    <div class="main-content__inner main-content__inner_small">
+                        <h1>JetBrains выпустила обновлённый менеджер Toolbox 2.0</h1>
+                        <div class="main-content__date">4 часа назад</div>
+                        <div class="main-content__image"><img src="img/image_news.jpg"></div>
+                        <div class="main-content__text">
+                            <p>Прошлая версия Toolbox устанавливалась в пользовательском каталоге с постоянно меняющимся путём. Теперь каталог установки по умолчанию соответствует рекомендациям операционной системы. Toolbox 2.0 использует следующие пути:</p>
+                            <ul>
+                                <li>%LocalAppData%\Programs для Windows;</li>
+                                <li>~/Applications для macOS;</li>
+                                <li>~/.local/share/JetBrains/Toolbox/apps для Linux.</li>
+                            </ul>
+                            <p>Также разработчики отметили, что пока Toolbox может устанавливать приложения только в пользовательские каталоги. В будущем это планируют исправить путём добавления возможности повышать разрешения для утилиты. Тогда будет возможна установка в общесистемные каталоги.</p>
+                            <p>В прошлой версии Toolbox для каждого обновления инструмента создавалась папка с номером версии в качестве названия. Из-за этого каждая новая версия имела новый путь к файловой системе. Теперь обновление устанавливается в текущую папку, сохраняя постоянный путь для инструмента. При этом сохранили возможность устанавливать рядом несколько версий одного инструмента.</p>
+                            <p>Загрузка, распаковка и прочие операции обновления выполняются в фоновом режиме, давая пользователю возможность продолжать работать с обновляемым приложением. После завершения подготовительного этапа появится предупреждение о том, что необходима перезагрузка для копирования новых файлов. Обновление применится при ближайшем закрытии инструмента.</p>
+                            <p>В Windows все установленные приложения JetBrains отображаются в соответствующем разделе настроек. Ярлыки после обновления не аннулируются, а брандмауэр Windows запоминает список разрешений.</p>
+                            <p>При первом запуске Toolbox 2.0 менеджер выполнит миграцию установленных инструментов. Процесс может занять от нескольких секунд до пары минут. Время миграции зависит от количества переносимых инструментов.</p>
+                        </div>
+                        <div class="main-content__comments">
+                            <div class="main-content__comment-title"><span class="main-content__comment-count">3</span> комментария</div>
+                            <div class="main-content__comment-area">
+                                <textarea placeholder="Мой комментарий..."></textarea>
+                            </div>
+                            <div class="main-content__comment-button">
+                                <div class="button button_comment-cancel">Отмена</div>
+                                <div class="button button_comment-send">Оставить комментарий</div>
+                            </div>
+                            <div class="main-content__comment-list">
+                                <div class="main-content__comment-branch">
+                                    <div class="main-content__comment-one">
+                                        <div class="main-content__comment-avatar">
+                                            <img src="img/avatar.jpg">
+                                        </div>
+                                        <div class="main-content__comment-block">
+                                            <div class="main-content__comment-name">Егений</div>
+                                            <div class="main-content__comment-time">Два часа назад</div>
+                                            <div class="main-content__comment-text">Загрузка, распаковка и прочие операции обновления выполняются в фоновом режиме, давая пользователю возможность продолжать работать с обновляемым приложением. После завершения подготовительного этапа появится предупреждение о том, что необходима перезагрузка для копирования новых файлов. Обновление применится при ближайшем закрытии инструмента.</div>
+                                            <div class="main-content__comment-likes">
+                                                <div class="main-content__comment-like main-content__comment-like-good">
+                                                    <span>
+                                                        <svg viewBox="0 0 800 800">
+                                                        <path d="M530,150c0-50-49.4-83.3-88-83.3c-26.9,0-29,20.4-33.1,60.7c-1.8,17.7-4,39.1-8.9,64.3 c-12.9,66.7-57.3,152-99.9,177.5v197.5c-0.1,75,24.9,100,133.2,100h125.8c72.5,0,90.1-47.8,96.6-65.5l0.4-1.2 c3.8-10.2,11.9-18.2,21.3-27.3c10.3-10.2,22.1-21.8,30.9-39.3c10.4-20.8,9-39.2,7.8-55.7c-0.8-10-1.5-19.2,0.6-27.7 c2.1-9,4.9-15.8,7.5-22.4c4.8-11.9,9.2-22.9,9.2-44.3c0-50-24.9-83.3-77.2-83.3H516.7C516.7,300.1,530,200,530,150z M183.3,333.3 c-27.6,0-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50s50-22.4,50-50V383.3C233.3,355.7,210.9,333.3,183.3,333.3z"/>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="main-content__comment-like-count">3</span>
+                                                </div>
+                                                <div class="main-content__comment-like main-content__comment-like-bad">
+                                                    <span>
+                                                        <svg viewBox="0 0 800 800" >
+                                                        <path class="st0" d="M516.7,433.4h139.5c52.3,0,77.2-33.3,77.2-83.3c0-21.4-4.4-32.4-9.2-44.3c-2.6-6.6-5.4-13.4-7.5-22.4 c-2.1-8.5-1.4-17.7-0.6-27.7c1.2-16.5,2.6-34.9-7.8-55.7c-8.8-17.5-20.6-29.1-30.9-39.3c-9.4-9.1-17.5-17.1-21.3-27.3l-0.4-1.2 c-6.5-17.7-24.1-65.5-96.6-65.5H433.3c-108.3,0-133.3,25-133.2,100v197.5c42.6,25.5,87,110.8,99.9,177.5c4.9,25.2,7.1,46.6,8.9,64.3 c4.1,40.3,6.2,60.7,33.1,60.7c38.6,0,88-33.3,88-83.3S516.7,433.3,516.7,433.4z M233.3,350.1V116.8c0-27.6-22.4-50-50-50 s-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50S233.3,377.7,233.3,350.1z"/>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="main-content__comment-like-count">3</span>
+                                                </div>
+                                                <div class="main-content__comment-like-answer">Ответить</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content__comment-one main-content__comment-one_respond">
+                                        <div class="main-content__comment-avatar">
+                                            <img src="img/avatar.jpg">
+                                        </div>
+                                        <div class="main-content__comment-block">
+                                            <div class="main-content__comment-name">Егений</div>
+                                            <div class="main-content__comment-time">Два часа назад</div>
+                                            <div class="main-content__comment-text">Загрузка, распаковка и прочие операции обновления выполняются в фоновом режиме, давая пользователю возможность продолжать работать с обновляемым приложением. После завершения подготовительного этапа появится предупреждение о том, что необходима перезагрузка для копирования новых файлов. Обновление применится при ближайшем закрытии инструмента.</div>
+                                            <div class="main-content__comment-likes">
+                                                <div class="main-content__comment-like main-content__comment-like-good">
+                                                    <span>
+                                                        <svg viewBox="0 0 800 800">
+                                                        <path d="M530,150c0-50-49.4-83.3-88-83.3c-26.9,0-29,20.4-33.1,60.7c-1.8,17.7-4,39.1-8.9,64.3 c-12.9,66.7-57.3,152-99.9,177.5v197.5c-0.1,75,24.9,100,133.2,100h125.8c72.5,0,90.1-47.8,96.6-65.5l0.4-1.2 c3.8-10.2,11.9-18.2,21.3-27.3c10.3-10.2,22.1-21.8,30.9-39.3c10.4-20.8,9-39.2,7.8-55.7c-0.8-10-1.5-19.2,0.6-27.7 c2.1-9,4.9-15.8,7.5-22.4c4.8-11.9,9.2-22.9,9.2-44.3c0-50-24.9-83.3-77.2-83.3H516.7C516.7,300.1,530,200,530,150z M183.3,333.3 c-27.6,0-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50s50-22.4,50-50V383.3C233.3,355.7,210.9,333.3,183.3,333.3z"/>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="main-content__comment-like-count">3</span>
+                                                </div>
+                                                <div class="main-content__comment-like main-content__comment-like-bad">
+                                                    <span>
+                                                        <svg viewBox="0 0 800 800" >
+                                                        <path class="st0" d="M516.7,433.4h139.5c52.3,0,77.2-33.3,77.2-83.3c0-21.4-4.4-32.4-9.2-44.3c-2.6-6.6-5.4-13.4-7.5-22.4 c-2.1-8.5-1.4-17.7-0.6-27.7c1.2-16.5,2.6-34.9-7.8-55.7c-8.8-17.5-20.6-29.1-30.9-39.3c-9.4-9.1-17.5-17.1-21.3-27.3l-0.4-1.2 c-6.5-17.7-24.1-65.5-96.6-65.5H433.3c-108.3,0-133.3,25-133.2,100v197.5c42.6,25.5,87,110.8,99.9,177.5c4.9,25.2,7.1,46.6,8.9,64.3 c4.1,40.3,6.2,60.7,33.1,60.7c38.6,0,88-33.3,88-83.3S516.7,433.3,516.7,433.4z M233.3,350.1V116.8c0-27.6-22.4-50-50-50 s-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50S233.3,377.7,233.3,350.1z"/>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="main-content__comment-like-count">3</span>
+                                                </div>
+                                                <div class="main-content__comment-like-answer">Ответить</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content__comment-one main-content__comment-one_respond">
+                                        <div class="main-content__comment-avatar">
+                                            <img src="img/avatar.jpg">
+                                        </div>
+                                        <div class="main-content__comment-block">
+                                            <div class="main-content__comment-area">
+                                                <textarea placeholder="Мой комментарий..."></textarea>
+                                            </div>
+                                            <div class="main-content__comment-button">
+                                                <div class="button button_comment-cancel">Отмена</div>
+                                                <div class="button button_comment-send">Оставить комментарий</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-content__comment-branch">
+                                    <div class="main-content__comment-one">
+                                        <div class="main-content__comment-avatar">
+                                            <img src="img/avatar.jpg">
+                                        </div>
+                                        <div class="main-content__comment-block">
+                                            <div class="main-content__comment-name">Егений</div>
+                                            <div class="main-content__comment-time">Два часа назад</div>
+                                            <div class="main-content__comment-text">Загрузка, распаковка и прочие операции обновления выполняются в фоновом режиме, давая пользователю возможность продолжать работать с обновляемым приложением. После завершения подготовительного этапа появится предупреждение о том, что необходима перезагрузка для копирования новых файлов. Обновление применится при ближайшем закрытии инструмента.</div>
+                                            <div class="main-content__comment-likes">
+                                                <div class="main-content__comment-like main-content__comment-like-good">
+                                                    <span>
+                                                        <svg viewBox="0 0 800 800">
+                                                        <path d="M530,150c0-50-49.4-83.3-88-83.3c-26.9,0-29,20.4-33.1,60.7c-1.8,17.7-4,39.1-8.9,64.3 c-12.9,66.7-57.3,152-99.9,177.5v197.5c-0.1,75,24.9,100,133.2,100h125.8c72.5,0,90.1-47.8,96.6-65.5l0.4-1.2 c3.8-10.2,11.9-18.2,21.3-27.3c10.3-10.2,22.1-21.8,30.9-39.3c10.4-20.8,9-39.2,7.8-55.7c-0.8-10-1.5-19.2,0.6-27.7 c2.1-9,4.9-15.8,7.5-22.4c4.8-11.9,9.2-22.9,9.2-44.3c0-50-24.9-83.3-77.2-83.3H516.7C516.7,300.1,530,200,530,150z M183.3,333.3 c-27.6,0-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50s50-22.4,50-50V383.3C233.3,355.7,210.9,333.3,183.3,333.3z"/>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="main-content__comment-like-count">3</span>
+                                                </div>
+                                                <div class="main-content__comment-like main-content__comment-like-bad">
+                                                    <span>
+                                                        <svg viewBox="0 0 800 800" >
+                                                        <path class="st0" d="M516.7,433.4h139.5c52.3,0,77.2-33.3,77.2-83.3c0-21.4-4.4-32.4-9.2-44.3c-2.6-6.6-5.4-13.4-7.5-22.4 c-2.1-8.5-1.4-17.7-0.6-27.7c1.2-16.5,2.6-34.9-7.8-55.7c-8.8-17.5-20.6-29.1-30.9-39.3c-9.4-9.1-17.5-17.1-21.3-27.3l-0.4-1.2 c-6.5-17.7-24.1-65.5-96.6-65.5H433.3c-108.3,0-133.3,25-133.2,100v197.5c42.6,25.5,87,110.8,99.9,177.5c4.9,25.2,7.1,46.6,8.9,64.3 c4.1,40.3,6.2,60.7,33.1,60.7c38.6,0,88-33.3,88-83.3S516.7,433.3,516.7,433.4z M233.3,350.1V116.8c0-27.6-22.4-50-50-50 s-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50S233.3,377.7,233.3,350.1z"/>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="main-content__comment-like-count">3</span>
+                                                </div>
+                                                <div class="main-content__comment-like-answer">Ответить</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <footer>
+                <div class="footer">
+                    <div class="footer__top">
+                        <a href="#" class="footer__link">API</a>
+                        <a href="/" class="logo logo_footer">
+                            <img src="img_general/logo.png">
+                        </a>
+                    </div>
+                    <div class="footer__bottom">© 2011-2023 г. Сайт не является публичной офертой и носит информационный характер. Все материалы данного сайта являются объектами авторского права (в том числе дизайн). Запрещается копирование, распространение (в том числе путем копирования на другие сайты и ресурсы в Интернете) или любое иное использование информации и объектов без предварительного согласия правообладателя.</div>
+                </div>
+		    </footer>
+		</div>
+		<div class="b-popup b-popup_register">
+    		<div class="b-popup__close"></div>
+            <div class="b-popup__content">
+				<div class="b-popup__title">Регистрация</div>
+				<form method="post" name="register_user">
+                    <div class="b-popup__block">
+                        <p>Хэндл</p>
+                        <div class="b-popup__block-right">
+                            <input type="text" name="nickname" placeholder="nickname">
+                            <span>Выберите ваш ник в системе. Будьте внимательны, так как позже вы сможете его изменить только один раз в течение 7-ми дней после регистрации.</span>
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <p>E-mail</p>
+                        <div class="b-popup__block-right">
+                            <input type="email" name="email" placeholder="121@123.ru">
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <p>Пароль</p>
+                        <div class="b-popup__block-right">
+                            <input type="password" name="password" placeholder="******">
+                            <span>Пароль должен содержать не менее пяти символов.</span>
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <p>Потверждение пароля</p>
+                        <div class="b-popup__block-right">
+                            <input type="password" name="password" placeholder="******">
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <div class="b-popup__block-right">
+				            <input type="submit" name="submit" class="button" value="Зарегистрироваться">
+                            <span>Если вы уже регистрировались, но не получлили подтверждение по e-mail, то перейдите <a href="#">по ссылке</a>.</span>
+                        </div>
+                    </div>
+				</form>
+                <div class="b-popup__link-social">
+                    <a href="#">По Gmail</a>
+                    <a href="#">По ВКонтакте</a>
+                </div>
+                <div class="b-popup__close-up">&#10006;</div>
+            </div>
+        </div>
+        <div class="b-popup b-popup_enter">
+    		<div class="b-popup__close"></div>
+            <div class="b-popup__content">
+				<div class="b-popup__title">Войти в личный кабинет</div>
+				<form method="post" name="enter_user">
+                    <div class="b-popup__block">
+                        <p>Хэндл/e-mail</p>
+                        <div class="b-popup__block-right">
+                            <input type="text" name="nickname" placeholder="nickname">
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <p>Пароль</p>
+                        <div class="b-popup__block-right">
+                            <input type="password" name="password" placeholder="******">
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <div class="b-popup__block-right">
+				            <input type="submit" name="submit" class="button" value="Войти">
+                            <span class="b-popup__forget">Забыли пароль?</span>
+                        </div>
+                    </div>
+				</form>
+                <div class="b-popup__close-up">&#10006;</div>
+            </div>
+        </div>
+        <div class="b-popup b-popup_recovery">
+    		<div class="b-popup__close"></div>
+            <div class="b-popup__content">
+				<div class="b-popup__title">Восстановление пароля</div>
+				<form method="post" name="recovery_user">
+                    <div class="b-popup__block">
+                        <p>Хэндл/e-mail</p>
+                        <div class="b-popup__block-right">
+                            <input type="text" name="nickname" placeholder="nickname">
+                            <span>Введите хэндл или e-mail для восстановления пароля.</span>
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <div class="b-popup__block-right">
+				            <input type="submit" name="submit" class="button" value="Восстановить">
+                        </div>
+                    </div>
+				</form>
+                <div class="b-popup__close-up">&#10006;</div>
+            </div>
+        </div>
+        <div class="b-popup messages">
+            <div class="b-popup__close"></div>
+            <div class="b-popup__content">
+				<div class="b-popup__title">Спасибо</div>
+				<p class="b-popup__text">Ваше решение отправено на проверку.</p>
+				<div class="b-popup__close-up">&#10006;</div>
+            </div>
+        </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="general_script.js" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+	</body>
+</html>
